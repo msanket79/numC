@@ -138,11 +138,11 @@ The `ArrayCPU` class overloads several arithmetic and comparison operators, allo
 
 For example, you can use the `+` operator to add two arrays element-wise:
 
-````cpp
+```cpp
 ArrayCPU<int> A(2, 2, 1);
 ArrayCPU<int> B(2, 2, 2);
 ArrayCPU<int> C = A + B;
-
+```
 
 **Basic Usage Example**
 
@@ -159,4 +159,4 @@ int main() {
     ArrayCPU<int> result = arr1 + arr2;
     std::cout << result << std::endl;  // Prints the result array
 }
-````
+```
